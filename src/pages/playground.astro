@@ -1,0 +1,13 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Quinn - Portfolio Website with Astro + Tailwind CSS',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.4/build/spline-viewer.js"></script>
+  <spline-viewer url="https://prod.spline.design/yopKsLr7KqpzgOQJ/scene.splinecode" background="rgba(65, 8, 107, 0.8)"></spline-viewer>
+</Layout>
