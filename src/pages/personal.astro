@@ -9,7 +9,7 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Steps from '~/components/widgets/Steps.astro';
 const QuinnHeadshotImage = '~/assets/images/Quinn_Recent Picture.jpeg';
-
+const QuinnHeadshotImage2 = '/Images/Quinn_Recent Picture.jpeg';
 import { getPermalink } from '../utils/permalinks';
 
 const metadata = {
@@ -85,9 +85,11 @@ const metadata = {
       },
     ]}
     image={{
-      src: QuinnHeadshotImage,
+      src: QuinnHeadshotImage2,
       alt: 'Personal Image',
       loading: 'eager',
+      height: 250,
+      width: 300,
     }}
   >
     <Fragment slot="content">
